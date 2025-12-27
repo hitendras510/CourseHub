@@ -1,6 +1,7 @@
 const { Router } = require("express");
 const adminRouter = Router();
 const { adminModel } = require("../db");
+//ZOD-> to validate user input.
 
 adminRouter.post("/singup", (req, res) => {
     res.json({
